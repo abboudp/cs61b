@@ -8,7 +8,7 @@ public class LeapYear {
      * Update this comment to describe what this method does.
      */
     public static boolean isLeapYear(int year) {
-        // Optional TODO: Fill in this method.
+        return (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0));
     }
 
     /** Calls isLeapYear to print correct statement. */
