@@ -14,12 +14,12 @@ public class TestUpOnly extends TestUtils {
         int[][] before = new int[][] {
                 {0, 0, 4, 0},
                 {0, 0, 0, 2},
-                {0, 0, 0, 0},
+                {0, 0, 2, 0},
                 {0, 0, 0, 0},
         };
         int[][] after = new int[][] {
                 {0, 0, 4, 2},
-                {0, 0, 0, 0},
+                {0, 0, 2, 0},
                 {0, 0, 0, 0},
                 {0, 0, 0, 0},
         };
